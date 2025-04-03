@@ -22,8 +22,6 @@ let bill = 0
  }
  
  function receiveTipPercentageValue(value) {
-     tipPercentage = value / 100
- 
      buttonSelected = document.querySelector("")
  }
  
@@ -33,4 +31,4 @@ let bill = 0
      } else {
          console.log("Ainda não dá! Preencha tudo!")
      }
-     }
+    }
