@@ -25,17 +25,6 @@ let bill = 0
      tipPercentage = value / 100
  
      buttonSelected = document.querySelector("")
-     removeClassButtonSelected()
- 
-     buttonSelected = document.querySelector(`#button-${value}`)
-     buttonSelected.classList.add("button-selected")
- }
- 
- function removeClassButtonSelected() {
-     if(buttonSelected !== null) {
-         buttonSelected.classList.remove("button-selected")
-         buttonSelected = null
-     }
  }
  
  function calculate() {
@@ -44,4 +33,4 @@ let bill = 0
      } else {
          console.log("Ainda não dá! Preencha tudo!")
      }
- }
+     }
